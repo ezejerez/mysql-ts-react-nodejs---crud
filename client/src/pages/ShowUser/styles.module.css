@@ -1,0 +1,35 @@
+.container :not(:first-child) {
+  text-align: left;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.container strong {
+  font-weight: bold;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
