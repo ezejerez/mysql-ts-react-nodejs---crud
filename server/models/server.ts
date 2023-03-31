@@ -1,7 +1,7 @@
-import express, { Application } from "express";
-import userRoutes from "../routes/user";
 import cors from "cors";
+import express, { Application } from "express";
 import db from "../db/connection";
+import userRoutes from "../routes/user";
 
 const app: Application = express();
 const PORT = process.env.PORT;

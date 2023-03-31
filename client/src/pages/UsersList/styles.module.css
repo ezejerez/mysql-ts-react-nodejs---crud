@@ -1,0 +1,39 @@
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
